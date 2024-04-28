@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Order summary card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    *, html{
+      padding: 0;
+      margin: 0;
+    }
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: ;
+      font-family: Red Hat Display;
+      font-weight: 400,500,700;
+      margin: 30px;
+      background-image: url(./images/pattern-background-desktop.svg);
+    }
+    p{
+      font-size: 16px;
+    
+
+    }
+    .mainbox{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 16px;
+      margin: 20px;
+    }
+    .main{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: white;
+      border-radius: 15px;
+      width: 300px;
+      gap: 10px;
+      
+    }
+    .image1{
+      width: 300px;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+    }
+    .main2{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 30px;
+      gap: 20px;
+    }
+    .main3{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid hsl(225, 100%, 98%);
+      background-color: hsl(225, 100%, 98%);
+      gap: 20px;
+      padding: 10px;
+      border-radius: 10px;
+      width: 250px;
+    }
+    .main3box{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+    }
+    .main3-1{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+    }
+    span{
+      color: hsl(223, 47%, 23%);
+    }
+    .link1{
+      color:  hsl(245, 75%, 52%);
+    }
+    .main4{
+      display: flex;
+      border: 1px solid hsl(245, 75%, 52%);
+      background-color: hsl(245, 75%, 52%);
+      color: white;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      border-radius: 10px;
+      width: 250px;
+    }
+    .link2{
+      color: white;
+      text-decoration: none;
+    }
+    .main5{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+
+    }
+    .link3{
+      color: hsla(223, 47%, 23%, 0.538);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="mainbox">
+    <div class="main">
+      <div class="main1"> <img src="./images/illustration-hero.svg" alt="" class="image1"></div>
+
+      <div class="main2">
+        <h3>Order Summary</h3>
+        <p><span>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</span></p>
+      </div>
+
+      <div class="main3">
+        <img src="./images/icon-music.svg" alt="">
+        <div class="main3box">
+          <div class="main3-1">
+            <p><b>Annual Plan</b></p>
+            <p><span>$59.99/year</span></p>
+          </div>
+            <a href="#" class="link1"><b>Change</b></a>
+        </div>
+      </div>
+
+      <div class="main4">
+        <a href="#" class="link2">Proceed to Payment</a>
+      </div>
+      <div class="main5">
+        <a href="#" class="link3"><b>Cancel Order</b></a>
+      </div>
+
+    </div>
+
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Emokowbb</a>.
+  </div>
+</body>
+</html>
